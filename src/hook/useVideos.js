@@ -8,7 +8,7 @@ const useVideos = (defaultSearchTerm) => {
 
     useEffect(() => {
         onTermSubmit(defaultSearchTerm);
-   }, []);
+   }, [defaultSearchTerm]);
   
    const onTermSubmit = async (term) => {
     const KEY = 'AIzaSyALcbENPfO_8uOvNtklwjQkI5iua28beF0';
